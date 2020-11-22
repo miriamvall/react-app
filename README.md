@@ -1,4 +1,38 @@
+# MERN web app
+
+MERN-stack application that acts as an activity manager. This development stack includes:
+
+* MongoDB (using the mongoose module on Node.js) to store the movies data
+* Express.js, a web application framework for Node.js
+* [ReactJS](https://reactjs.org/), an open-source, front end, JavaScript library for building user interfaces or UI components.
+* Node.js
+
+This web app allows the users of all types of organizations to keep track of their programmed activities, storing information about them (name, date, organizers, attendees, and location). This info can be added, updated or removed at any given point - the app performs the standard CRUD operations with a REST API on the back-end.
+
+[Bootstrap](https://getbootstrap.com/) was used for the styling.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+MongoDB must be installed and running for the application to work properly, as well as the other used frameworks of the development stack, including NPM.
+To run the back-end server, execute "node server.js" on the command line.
+
+## Functionalities
+
+* Listing all the user's programmed activities, ordered by data from oldest to newest.
+* Adding a new activity to the list
+* Editing the details of an activity
+* Removing an activity from the list
+* Filtering activities by location
+
+## Some app screenshots
+
+![homepage](https://github.com/miriamvall/react-app/blob/master/screenshots/homepage.png)
+
+![createactivity](https://github.com/miriamvall/react-app/blob/master/screenshots/createactivity.png)
+
+![activitylist](https://github.com/miriamvall/react-app/blob/master/screenshots/activitylist.png)
+
+![filteredlist](https://github.com/miriamvall/react-app/blob/master/screenshots/activitylistfiltered.png)
 
 ## Available Scripts
 
